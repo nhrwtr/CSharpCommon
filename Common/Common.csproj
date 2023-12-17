@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <AssemblyName>$(MSBuildProjectName).$(Configuration)</AssemblyName>
   </PropertyGroup>
 
 </Project>
